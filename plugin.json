@@ -1,0 +1,6 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "mongolian-spellcheck",
+  "version": "1.0.0",
+  "description": "Mongolian spelling, grammar, punctuation, and writing correction skill."
+}
