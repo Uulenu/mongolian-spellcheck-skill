@@ -1,8 +1,20 @@
 {
+  "name": "uulenu-plugins",
+  "interface": {
+    "displayName": "Uulenu Plugins"
+  },
   "plugins": [
     {
       "name": "mongolian-spellcheck",
-      "source": "."
+      "source": {
+        "source": "local",
+        "path": "./"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
     }
   ]
 }
